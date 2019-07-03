@@ -1,0 +1,35 @@
+* {
+  /* border: 2px solid blue; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: black;
+  margin: 0, auto;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  height: 10%;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  line-height: 100px;
+}
+input {
+  line-height: 35px;
+  border-radius: 25px;
+  padding: 0 20px;
+}
+button {
+  line-height: 35px;
+  border-radius: 5px;
+  width: 75px;
+}
+#show {
+  font-size: 35px;
+  color: orangered;
+}
